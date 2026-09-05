@@ -1,0 +1,93 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Nirn
+  structure:
+    - type: section
+      key: section-1
+      title: Nirn
+      path: nirn
+      description: ""
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: The world
+          path: docs
+          default: true
+          content:
+            directory: ./nirn/docs
+    - type: section-group
+      key: section-group-1
+      title: Continents
+      icon: earth-europe
+      children:
+        - type: section
+          key: section-2
+          title: Tamriel
+          path: tamriel
+          description: The cultural and political heart of the world, home to the greatest kingdoms, magical academies, and diverse races. Most adventurers, nobles, and scholars begin their journey here.
+          icon: castle
+          children:
+            - type: space
+              key: space-2
+              title: Tamriel
+              path: untitled
+              default: true
+              content:
+                directory: ./tamriel/untitled
+        - type: section
+          key: section-3
+          title: Akavir
+          path: akavir
+          description: A mysterious eastern continent where dragons, ancient warrior clans, and powerful empires vie for dominance. Few foreigners return from its shores, making it a land of legends and forgotten techniques.
+          icon: dragon
+          children:
+            - type: space
+              key: space-3
+              title: Akavir
+              path: untitled
+              default: true
+              content:
+                directory: ./akavir/untitled
+        - type: section
+          key: section-4
+          title: Atmora
+          path: atmora
+          description: A frozen northern wasteland buried beneath eternal snow and blizzards. Once home to a mighty civilization, it is now explored only by the bravest adventurers seeking lost relics.
+          icon: snowflake
+          children:
+            - type: space
+              key: space-4
+              title: Atmora
+              path: untitled
+              default: true
+              content:
+                directory: ./atmora/untitled
+        - type: section
+          key: section-5
+          title: Yokuda
+          path: yokuda
+          description: The remnants of a once-glorious continent that was swallowed by the sea after a cataclysm. Ancient ruins and powerful artifacts still lie hidden beneath its waters and scattered islands.
+          icon: wave
+          children:
+            - type: space
+              key: space-5
+              title: Yokuda
+              path: untitled
+              default: true
+              content:
+                directory: ./yokuda/untitled
+        - type: section
+          key: section-6
+          title: Pyandonea
+          path: pyandonea
+          description: A lush tropical continent cloaked in perpetual mist, ruled by the elusive Sea Elves. Its dense jungles and serpent-infested coasts remain largely unexplored by outsiders.
+          icon: snake
+          children:
+            - type: space
+              key: space-6
+              title: Pyandonea
+              path: untitled
+              default: true
+              content:
+                directory: ./pyandonea/untitled
