@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Page](README.md)
+* [The World of Nirn](README.md)
